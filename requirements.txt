@@ -8,3 +8,4 @@ pypdf
 beautifulsoup4
 wikipedia
 requests
+langchain-text-splitters
