@@ -4,3 +4,7 @@ python-dotenv
 langchain-groq
 streamlit
 langchain-community
+pypdf
+beautifulsoup4
+wikipedia
+requests

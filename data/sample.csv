@@ -1,0 +1,41 @@
+id,topic,content,category,difficulty
+1,Artificial Intelligence,AI is a field of computer science focused on systems that perform tasks associated with human intelligence.,AI,beginner
+2,Machine Learning,Machine learning allows computers to learn patterns from data rather than being explicitly programmed for every case.,ML,beginner
+3,Supervised Learning,Supervised learning uses labeled examples to learn a mapping between inputs and target outputs.,ML,beginner
+4,Unsupervised Learning,Unsupervised learning discovers patterns or structures in data without predefined labels.,ML,beginner
+5,Deep Learning,Deep learning uses neural networks with multiple layers to learn complex representations.,Deep Learning,intermediate
+6,NLP,Natural Language Processing enables computers to process and understand human language.,NLP,beginner
+7,LLM,A Large Language Model is trained on large collections of text and can perform many language-related tasks.,Generative AI,beginner
+8,Generative AI,"Generative AI creates new content such as text, images, audio, video, and code from user instructions.",Generative AI,beginner
+9,RAG,Retrieval-Augmented Generation retrieves external information and provides it as context to a language model.,RAG,beginner
+10,RAG Pipeline,"A basic RAG pipeline includes loading, splitting, embedding, vector storage, retrieval, prompting, and generation.",RAG,beginner
+11,Document Loader,"A document loader reads information from sources such as TXT, PDF, CSV, websites, or databases.",RAG,beginner
+12,Chunking,Chunking divides large documents into smaller pieces so relevant information can be retrieved efficiently.,RAG,beginner
+13,Chunk Overlap,Chunk overlap preserves some shared text between neighboring chunks and can help maintain context.,RAG,intermediate
+14,Embedding,An embedding converts text or other information into a numerical vector representing semantic characteristics.,RAG,beginner
+15,Cosine Similarity,Cosine similarity measures the angle-based similarity between vectors and is commonly used in semantic search.,Vector Search,intermediate
+16,Vector Database,A vector database stores embeddings and supports efficient similarity search.,Vector Search,beginner
+17,FAISS,FAISS is a library for efficient similarity search and clustering of dense vectors.,Vector Search,intermediate
+18,Chroma,Chroma is a vector database commonly used for AI and RAG prototypes and applications.,Vector Search,beginner
+19,Pinecone,Pinecone is a managed vector database designed for similarity search and AI applications.,Vector Search,intermediate
+20,Weaviate,Weaviate is a vector database that supports semantic search and AI-oriented retrieval workflows.,Vector Search,intermediate
+21,Retriever,A retriever finds documents or chunks that are relevant to a user's query.,RAG,beginner
+22,Hybrid Search,"Hybrid search combines different retrieval approaches, such as keyword matching and semantic vector search.",RAG,advanced
+23,Reranking,Reranking evaluates initially retrieved results and reorders them according to their relevance.,RAG,advanced
+24,Metadata,"Metadata provides additional information such as source, date, category, author, or document identifier.",RAG,intermediate
+25,Hallucination,An AI hallucination is an unsupported or incorrect generated claim presented as if it were factual.,Generative AI,beginner
+26,Grounding,Grounding means generating an answer using reliable information supplied by external sources or retrieved context.,RAG,intermediate
+27,Prompt,A prompt is an instruction or input provided to an AI model to guide its response.,Generative AI,beginner
+28,Prompt Context,Retrieved documents can be inserted into a prompt so the model can use external knowledge when answering.,RAG,beginner
+29,PDF in RAG,"PDFs can contain reports, manuals, research papers, and policies that can be loaded and indexed for retrieval.",Data Loading,beginner
+30,CSV in RAG,CSV rows can be transformed into searchable documents while preserving useful columns as metadata.,Data Loading,beginner
+31,Text File in RAG,TXT files are simple sources for RAG experiments because their contents can be loaded directly and split into chunks.,Data Loading,beginner
+32,RAG Evaluation,"RAG evaluation measures retrieval quality and the correctness, relevance, completeness, and grounding of generated answers.",Evaluation,advanced
+33,Query Rewriting,Query rewriting transforms a user's question into a retrieval-friendly query to improve search results.,Advanced RAG,advanced
+34,Multi-Query Retrieval,Multi-query retrieval creates multiple variations of a question and searches using each variation.,Advanced RAG,advanced
+35,Contextual Compression,Contextual compression reduces retrieved material to the portions most relevant to the user's question.,Advanced RAG,advanced
+36,Agentic RAG,Agentic RAG allows an AI agent to decide when and how to retrieve information using tools or knowledge sources.,Agents,advanced
+37,Access Control,Access control ensures users retrieve only documents and information they are authorized to access.,Security,advanced
+38,Data Privacy,"RAG systems should protect sensitive documents, prompts, retrieved context, and generated responses.",Security,advanced
+39,Knowledge Base,A knowledge base is a collection of information that an AI application can search to answer user questions.,RAG,beginner
+40,Semantic Search,Semantic search retrieves information based on meaning rather than requiring exact keyword matches.,Search,intermediate
