@@ -9,3 +9,6 @@ beautifulsoup4
 wikipedia
 requests
 langchain-text-splitters
+langchain-google-genai
+langchain-chroma
+google.rpc
