@@ -12,3 +12,4 @@ langchain-text-splitters
 langchain-google-genai
 langchain-chroma
 google.rpc
+pkg_resources
